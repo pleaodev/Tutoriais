@@ -1,0 +1,32 @@
+
+<h1>Soveteria</h1>
+
+<script>
+
+  function sabores(sabor1, sabor2, sabor3){
+
+    this.sabor1 = sabor1;
+    this.sabor2 = sabor2;
+    this.sabor3 = sabor3;
+
+  }
+
+  var sorveteria1 = new sabores('chocolate', 'morango', 'creme');
+
+  var sorveteria2 = new sabores('morango', 'uva', 'creme2');
+
+  console.log(sorveteria1);
+
+  console.log(sorveteria2);
+
+  if(sorveteria1.sabor2 === sorveteria2.sabor1){
+
+    console.log("Sim os sabores são equivalentes");
+
+  }else{
+
+    console.log("Não os sabores não são equivalentes");
+
+  }
+
+</script>
